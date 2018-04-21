@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    background-image: url("images/Fortnite_background.jpg");
+    background-repeat: no-repeat;
+    background-color: #17152d;
+    background-attachment: fixed;
+}
+
+@font-face{ font-family: Burbank;
+    src: url('BurbankBigCondensed-Bold_0.otf'); }
+
+
+
+#container{
+    width: 1200px;
+    height: 1600px;
+    /*background-color:white;*/
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+#menu{
+    width: 1200px;
+    height: 200px;
+    margin: 50px 0 0 0;
+}
+
+#menu h1{
+    font-family: Burbank;
+    font-size: 40px;
+    color: #17152D;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #6E4BFF;
+    margin: 20px 0 0 20px;
+    float: left;
+}
+
+#menu li{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 30px 0 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+}
+
+#menu a:link{
+    text-decoration: none;
+    color: #17152d;
+    text-shadow: 1px 1px 1px #6E4BFF;
+}
+
+
+
+
